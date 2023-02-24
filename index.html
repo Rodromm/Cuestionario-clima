@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./css/styles.css">
+    <title>Cuestionario</title>
+</head>
+<body>
+    <div id="container-box" class="weather-content">
+        <h1>Clima</h1>
+        <div class="result">
+            <p>Ciudad</p>
+            <h4>Mérida</h4>
+
+            <h2>32°c</h2>
+            <p>Max 35°c</p>
+            <p>Min 26°c</p>
+        </div>
+        <form action="" method="POST" class="get-weather">
+          <input type="text" name="city" id="city" placeholder="Selecciona una ciudad">
+          <select aria-label="country" name="country" id="country">
+            <option disabled selected value="">selecciona tu país</option>
+            <option value="MX">México</option>
+            <option value="AR">Argentina</option>
+            <option value="CO">Colombia</option>
+            <option value="US">Estados Unidos</option>
+            <option value="PE">Perú</option>
+            <option value="CR">Costa Rica</option>
+            <option value="ES">España</option>
+          </select>  
+          <input type="submit" name="" id="" value="get weather">
+        </form>
+    </div>
+
+    <div id="quiz">
+        <h1>Cuestionario-JavaScript</h1>
+
+        <hr>
+
+        <h2 id="questions"></h2>
+
+        <div id="choices">
+            <!--botones en js-->
+        </div>
+
+        <hr>
+
+        <footer>
+            <p id="progress"></p>
+            <p>©Creado por Rodrigo Moguel</p>
+        </footer>
+
+    </div>
+    <script src="./main.js" type="module"></script>
+    <script src="./clima.js"></script>
+</body>
+</html>
